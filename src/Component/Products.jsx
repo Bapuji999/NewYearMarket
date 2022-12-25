@@ -57,7 +57,7 @@ const Products = () => {
         return (
             <>
                 <div className="buttons d-flex justify-content-center  mb-5 pb-5">
-                    <button className="btn btn-outline-dark me-2 col-xs-4 " onClick={() =>
+                    <button className="btn btn-outline-dark me-2" onClick={() =>
                         setFilter(data)}>All</button>
                     <button className="btn btn-outline-dark me-2" onClick={() =>
                         filterProduct("men's clothing")}>Men's clothing</button>
